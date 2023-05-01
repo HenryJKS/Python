@@ -15,3 +15,4 @@ Acessorios = np.array(dados)
 #Comparando Array com Lista
 np_array = np.arange(1000000)
 py_lista = list(range(1000000))
+
