@@ -14,7 +14,7 @@ for lista in dados:
         Acessorios.append(item)
 
 
-#Remover dados repetidos
+#Remover dados repetidos "SET"
 print(list(set(Acessorios)))
 
 
