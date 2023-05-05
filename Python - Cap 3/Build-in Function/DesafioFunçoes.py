@@ -1,4 +1,5 @@
 #Crie uma função que imprime a quilometragem média anual de cada veículo em um dicionário
+import pandas as pd
 
 dados = {
     'Crossfox': {'km': 35000, 'ano': 2005}, 
@@ -17,4 +18,8 @@ def mediakm(dataset, data_inicial):
     return result
 
 #Retorna um tipo dicionário
-print(mediakm(dados, 2023))
+#print(mediakm(dados, 2023))
+
+#Usando Pandas para criar Arrays Dataframe
+carros = pd.DataFrame(mediakm(dados, 2023))
+print(carros)
